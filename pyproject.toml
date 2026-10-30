@@ -1,0 +1,9 @@
+[project]
+name = "3d-product-code-circuit"
+version = "0.1.0"
+description = "Reproduces the interleaved circuit for the 3d product code"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "stim>1.14.0",  # Circuit error simulation
+]
